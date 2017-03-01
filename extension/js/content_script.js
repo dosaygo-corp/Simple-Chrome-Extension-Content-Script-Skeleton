@@ -1,3 +1,8 @@
-$(function() {
-    console.log('Hello World');
-});
+navigator.registerProtocolHandler(
+    "tel",
+
+    "https://telefn.com/?callto=%s",
+    
+    "Telefn Calls"
+    
+    );
