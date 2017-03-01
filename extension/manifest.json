@@ -1,5 +1,5 @@
 {
-    "name": "My awesome extension :)",
+    "name": "Get Telefn",
     "version": "0.1",
     "icons": {
         "16": "/img/icons/icon_16.png",
@@ -7,7 +7,7 @@
         "128": "/img/icons/icon_128.png"
     },
 
-    "description": "Yay, I'm so useless.",
+    "description": "Use Telefn to call phone numbers from your browser.",
     "permissions": [
         "geolocation"
     ],
@@ -16,7 +16,7 @@
         {
             "matches": ["<all_urls>"],
             "js": [
-                    "/js/external/jquery.js",
+
                     "/js/content_script.js"
                 ]
         }
